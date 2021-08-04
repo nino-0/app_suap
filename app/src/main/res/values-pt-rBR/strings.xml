@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">suap</string>
+    <string name="confirm">Entrar</string>
+    <string name="forgotPass">Esqueceu senha</string>
+    <string name="register">Registrar-se</string>
+    <string name="password">Senha</string>
+    <string name="email">E-mail</string>
+</resources>

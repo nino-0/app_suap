@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">suap</string>
+    <string name="confirm">Enter</string>
+    <string name="forgotPass">Forgot Password</string>
+    <string name="register">Register</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+</resources>

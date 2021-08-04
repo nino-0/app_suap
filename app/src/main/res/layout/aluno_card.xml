@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:paddingBottom="5dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="16dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/aluno_img"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="@drawable/cicler"
+            />
+
+        <TextView
+            android:id="@+id/aluno_nome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="16dp"
+            android:text="Manoel vitor silva rodrigues"
+            android:textSize="20dp"
+            android:layout_toEndOf="@+id/aluno_img"
+            />
+        <TextView
+            android:id="@+id/aluno_media"
+            android:layout_alignParentRight="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Média:"
+            android:textSize="23dp"
+            android:layout_alignLeft="@+id/aluno_nome"
+            android:layout_below="@+id/aluno_nome"
+            />
+
+        <Button
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/delete_icon"
+            android:backgroundTint="@color/red"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="10dp"
+
+            />
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
