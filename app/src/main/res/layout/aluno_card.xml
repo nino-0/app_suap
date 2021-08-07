@@ -7,18 +7,14 @@
     >
 
     <RelativeLayout
+        android:id="@+id/id_card"
         android:layout_width="match_parent"
         android:layout_marginStart="16dp"
         android:layout_marginLeft="8dp"
         android:layout_marginBottom="16dp"
         android:layout_height="wrap_content">
 
-        <ImageView
-            android:id="@+id/aluno_img"
-            android:layout_width="48dp"
-            android:layout_height="48dp"
-            android:background="@drawable/cicler"
-            />
+
 
         <TextView
             android:id="@+id/aluno_nome"
@@ -29,8 +25,9 @@
             android:layout_marginRight="50dp"
             android:layout_marginLeft="16dp"
             android:text="Manoel vitor silva rodrigues"
-            android:textSize="20dp"
-            android:layout_toEndOf="@+id/aluno_img"
+            android:textSize="25dp"
+            android:textStyle="bold"
+
             />
         <TextView
             android:id="@+id/aluno_media"
@@ -38,7 +35,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Média:"
-            android:textSize="23dp"
+            android:textSize="20dp"
             android:layout_alignLeft="@+id/aluno_nome"
             android:layout_below="@+id/aluno_nome"
             />

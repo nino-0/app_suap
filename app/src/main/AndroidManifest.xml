@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Atividade01">
-        <activity android:name=".ListaAlunos"></activity>
+        <activity android:name=".Aluno_Info"></activity>
+        <activity android:name=".Cadastrar_aluno" />
+        <activity android:name=".cadastrarAluno" />
+        <activity android:name=".ListaAlunos" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
